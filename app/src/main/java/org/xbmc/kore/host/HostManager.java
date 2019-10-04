@@ -189,6 +189,9 @@ public class HostManager {
                 }
             }
         }
+        //if(currentHostInfo == null) {
+        //  currentHostInfo = DefaultHostInfo.INSTANCE.getIMac();
+        //}
 		return currentHostInfo;
 	}
 

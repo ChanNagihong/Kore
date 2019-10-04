@@ -577,10 +577,10 @@ public class RemoteFragment extends Fragment
 
         if (showRemote) {
             controlPad.setVisibility(View.VISIBLE);
-            buttonBarPanel.setVisibility(View.VISIBLE);
+            //buttonBarPanel.setVisibility(View.VISIBLE);
         } else {
             controlPad.setVisibility(View.GONE);
-            buttonBarPanel.setVisibility(View.GONE);
+            //buttonBarPanel.setVisibility(View.GONE);
         }
     }
 

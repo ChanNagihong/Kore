@@ -45,6 +45,7 @@ import org.xbmc.kore.host.HostManager;
 import org.xbmc.kore.jsonrpc.ApiCallback;
 import org.xbmc.kore.jsonrpc.HostConnection;
 import org.xbmc.kore.jsonrpc.method.JSONRPC;
+import org.xbmc.kore.ui.sections.remote.MyRemoteActivity;
 import org.xbmc.kore.ui.sections.remote.RemoteActivity;
 import org.xbmc.kore.utils.LogUtils;
 import org.xbmc.kore.utils.UIUtils;
@@ -109,7 +110,7 @@ public class HostListFragment extends Fragment {
 
                 // Set the clicked host active
                 hostManager.switchHost(clickedHostRow.hostInfo);
-                Intent intent = new Intent(context, RemoteActivity.class);
+                Intent intent = new Intent(context, MyRemoteActivity.class);
                 context.startActivity(intent);
 
 
